@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
   // #enddocregion build
 }
 // #enddocregion MyApp
-
+//change padding and font size
 // #docregion RWS-var
 class RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
