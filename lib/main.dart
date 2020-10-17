@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Startup Name Generator',
       theme: ThemeData(          // Add the 3 lines from here... 
         primaryColor: Colors.white,
-      ), 
+      ),
       home: RandomWords(),
     );
   }
@@ -116,7 +116,7 @@ class RandomWordsState extends State<RandomWords> {
   // #docregion RWS-var
 }
 // #enddocregion RWS-var
-
+// statefulwidget section
 class RandomWords extends StatefulWidget {
   @override
   RandomWordsState createState() => RandomWordsState();
